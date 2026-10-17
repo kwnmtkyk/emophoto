@@ -43,3 +43,9 @@
 ## v0.1.1 修正
 - WebGL 2 フラグメントシェーダーに `precision highp sampler3D;` を追加。
 - 3D LUT を `RGB32F` から `RGB8` に変更し、標準的な WebGL 2 環境で線形補間可能にしました。
+
+
+## v0.1.2
+- Shader sampler3D precision declaration included.
+- Cache-busting query for entry scripts and shader; shader fetched with no-store.
+- If the same error persists, check deployed shaders/color.frag and js/app.js in GitHub Pages.
