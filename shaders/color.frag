@@ -1,5 +1,6 @@
 #version 300 es
 precision highp float;
+precision highp sampler3D;
 in vec2 uv;out vec4 fragColor;
 uniform sampler2D uImage;uniform sampler3D uLut;
 uniform int uUseLut;uniform vec4 uTone;uniform vec3 uColor;uniform vec4 uBasic; // exposure, contrast, saturation, temperature

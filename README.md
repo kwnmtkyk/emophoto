@@ -38,3 +38,8 @@
 ## 構成
 
 `index.html`、`css/style.css`、`js/app.js`、`js/image-engine.js`、`js/film-presets.js`、`js/grain.js`、`js/halation.js`、`js/export.js`、`shaders/color.frag`、`shaders/effects.frag`、`luts/*.cube`
+
+
+## v0.1.1 修正
+- WebGL 2 フラグメントシェーダーに `precision highp sampler3D;` を追加。
+- 3D LUT を `RGB32F` から `RGB8` に変更し、標準的な WebGL 2 環境で線形補間可能にしました。
