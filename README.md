@@ -49,3 +49,9 @@
 - Shader sampler3D precision declaration included.
 - Cache-busting query for entry scripts and shader; shader fetched with no-store.
 - If the same error persists, check deployed shaders/color.frag and js/app.js in GitHub Pages.
+
+
+## v0.1.3 初期化診断
+- 初期化失敗の根本原因を画面に表示し、画像読み込み時の `setImage` 参照エラーを防止。
+- GitHub Pages では全ファイルを上書きし、ハードリロードしてください。
+- 初期化エラーが表示された場合は、その全文を共有してください。
